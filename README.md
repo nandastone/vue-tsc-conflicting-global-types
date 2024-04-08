@@ -1,6 +1,6 @@
-Monorepo setup with `package-a` and `package-b` being built in library mode, and emitting types via `vue-tsc`.
+Monorepo setup with `package-a` importing `package-b`, with both being built in library mode, and emitting types via `vue-tsc`.
 
-`package-b` is then importing `package-a`.
+Both `package-a` and `package-b` would eventually be consumed by a service.
 
 ```bash
 pnpm i`
