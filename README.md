@@ -43,7 +43,7 @@ Found 1 error in src/ComponentB.vue:2
  ELIFECYCLE  Command failed with exit code 1.
 ```
 
-Review [packages/package-a/dist/types/ComponentA.vue.d.ts](./packages/package-a/dist/types/ComponentA.vue.d.ts) to see:
+Review the built `packages/package-a/dist/types/ComponentA.vue.d.ts` to see:
 
 ```typescript
 declare global {
