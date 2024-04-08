@@ -1,4 +1,4 @@
-Monorepo setup with `package-a` and `package-b` being built in library mode, and emitting types.
+Monorepo setup with `package-a` and `package-b` being built in library mode, and emitting types via `vue-tsc`.
 
 `package-b` is then importing `package-a`.
 
